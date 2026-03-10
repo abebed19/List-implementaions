@@ -76,7 +76,7 @@ public class List<Type> {
             this.values[i] = this.values[i+1];
         }
     }
-    private Type value(int index){
+    public Type value(int index){
         if(index < 0 || index>= this.firstIndex){
             throw new ArrayIndexOutOfBoundsException("Index "+ index +" outside of [0," +this.firstIndex+"]");
         }
