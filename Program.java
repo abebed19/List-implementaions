@@ -18,6 +18,9 @@ public class Program {
             List<Integer> numbers = new List<>();
             numbers.add(90);
             System.out.print(numbers);
+            
+            Pair<String,Integer>  pair = new Pair<>("one",1);
+            System.out.println(pair.getKey() +" -> "+ pair.getValue());
 
     }
 
